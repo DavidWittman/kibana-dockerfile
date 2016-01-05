@@ -1,7 +1,7 @@
 FROM alpine:3.2
 MAINTAINER Dave Wittman <dave@objectrocket.com>
 
-ENV KIBANA_VERSION 4.3.0-linux-x64
+ENV KIBANA_VERSION 4.3.1-linux-x64
 
 RUN apk add --update nodejs curl && \
     mkdir /opt && \
